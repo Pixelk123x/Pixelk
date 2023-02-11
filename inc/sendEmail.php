@@ -47,7 +47,7 @@ if($_POST) {
    if (!$error) {
 
       ini_set("sendmail_from", $mgrkamal2020@gmail.com); // for windows server
-      $mail = mail($siteOwnersEmail, $subject, $message, $headers);
+      $mail = mail($mgrkamal2020@gmail.com, $subject, $message, $headers);
 
 		if ($mail) { echo "OK"; }
       else { echo "Something went wrong. Please try again."; }
